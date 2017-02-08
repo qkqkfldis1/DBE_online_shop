@@ -20,3 +20,10 @@ if __name__ == "__main__":
             )
         raise
     execute_from_command_line(sys.argv)
+
+ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
+SRC_PATH = os.path.join(ROOT_PATH, 'src')
+CONF_PATH = os.path.join(ROOT_PATH, 'conf')
+
+sys.path.append(SRC_PATH)
+sys.path.append(CONF_PATH)
