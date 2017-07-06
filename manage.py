@@ -27,3 +27,5 @@ CONF_PATH = os.path.join(ROOT_PATH, 'conf')
 
 sys.path.append(SRC_PATH)
 sys.path.append(CONF_PATH)
+
+# I can do it
